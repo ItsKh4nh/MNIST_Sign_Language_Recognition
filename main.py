@@ -28,12 +28,8 @@ from tensorflow.keras.optimizers import Adam
 
 
 ### 2. Data Loading and Preprocessing ###
-train_df = pd.read_csv(
-    "/kaggle/input/sign-language-mnist/sign_mnist_train/sign_mnist_train.csv"
-)
-test_df = pd.read_csv(
-    "/kaggle/input/sign-language-mnist/sign_mnist_test/sign_mnist_test.csv"
-)
+train_df = pd.read_csv("data/sign-language-mnist/sign_mnist_train/sign_mnist_train.csv")
+test_df = pd.read_csv("data/sign-language-mnist/sign_mnist_test/sign_mnist_test.csv")
 
 train_df.info()
 test_df.info()
