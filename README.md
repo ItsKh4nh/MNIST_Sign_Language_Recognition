@@ -13,7 +13,7 @@ MNIST_Sign_Language_Recognition/
 │   ├── train/          
 ├── models/             # Saved model files
 ├── main.py             # Main script for training and inference
-├── main.ipynb          # Jupyter notebook version
+├── main.ipynb          # Jupyter Notebook version
 └── requirements.txt    # Project dependencies
 ```
 
